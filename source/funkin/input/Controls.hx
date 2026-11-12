@@ -978,13 +978,13 @@ class Controls extends FlxActionSet
           case Control.UI_RIGHT:
             return [D, FlxKey.RIGHT];
           case Control.NOTE_UP:
-            return [W, FlxKey.UP];
+            return [8,W, FlxKey.UP];
           case Control.NOTE_DOWN:
-            return [S, FlxKey.DOWN];
+            return [6,S, FlxKey.DOWN];
           case Control.NOTE_LEFT:
-            return [A, FlxKey.LEFT];
+            return [2,A, FlxKey.LEFT];
           case Control.NOTE_RIGHT:
-            return [D, FlxKey.RIGHT];
+            return [4,D, FlxKey.RIGHT];
           case Control.ACCEPT:
             return [Z, SPACE, ENTER];
           case Control.BACK:
